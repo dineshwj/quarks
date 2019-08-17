@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: #000;
+  color: #fff;
+  height: 40px;
+  padding: 6px 12px;
+  .header-title {
+    float: left;
+    h1 {
+      margin: 0;
+      font-weight: 300;
+    }
+  }
+  .menu-link {
+    float: right;
+    padding: 8px 12px;
+    ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0px 6px;
+      }
+    }
+  }
+}
+
+.searchbar {
+  width: 650px;
+  margin: 20px auto;
+  margin-top: 80px;
+  input {
+    border: 1px solid;
+    color: #999;
+    padding: 8px 12px;
+    font-size: 1.5em;
+
+    width: 84%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1.5em;
+    outline: none;
+    margin: 0px;
+    border: 1px solid #000;
+  }
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+  .card {
+    width: 200px;
+    height: 150px;
+
+    border-radius: 4px;
+    float: left;
+    box-shadow: 1px 1px 5px 0px #bbb;
+    padding: 6px;
+    margin: 12px;
+
+    .card-img {
+      img {
+        height: 150px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.time-block {
+  width: 250px;
+  margin: 0px auto;
+  text-align: center;
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1.5em;
+    outline: none;
+    margin: 0px;
+    border: 1px solid #000;
+  }
+  p {
+    font-size: 20px;
+  }
+}
